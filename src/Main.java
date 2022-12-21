@@ -15,5 +15,24 @@ public class Main {
         double whale = 0.0000000000000001;
         System.out.println("Значение переменной whale с типом double равно " + whale);
 
+
+        System.out.println("Задача 2");
+        float alfa = 27.12f;
+        System.out.println("Значение переменной alfa равно " + alfa + " - тип переменной float");
+        long bravo = 987678965549L;
+        System.out.println("Значение переменной bravo равно " + bravo + " - тип переменной long");
+        float charlie = 2.786f;
+        System.out.println("Значение переменной charlie равно " + charlie + " - тип переменной float");
+        short delta = 569;
+        System.out.println("Значение переменной delta равно " + delta + " - тип переменной short");
+        short echo = -159;
+        System.out.println("Значение переменной echo равно " + echo + " - тип переменной short");
+        short foxtrot = 27897;
+        System.out.println("Значение переменной foxtrot равно " + foxtrot + " - тип переменной short");
+        byte kilo = 67;
+        System.out.println("Значение переменной kilo равно " + kilo + " - тип переменной byte");
+
+
+
     }
 }
