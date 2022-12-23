@@ -57,6 +57,14 @@ public class Main {
         byte brownPaint = (byte) (allClasses * 4);
         System.out.println("В школе, где " + allClasses + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски");
 
+        System.out.println("Задача 6");
+        short bananasWeight = 5 * 80;
+        short milkWeight = 2 * 105;
+        short iceCreamWeight = 2 *100;
+        short eggsWeight = 4 * 70;
+        System.out.println("Вес спортзавтрака " + (bananasWeight + milkWeight + iceCreamWeight + eggsWeight) + " грамм");
+        float productWeightKg = (float) ((bananasWeight + milkWeight + iceCreamWeight + eggsWeight) / 1000);
+        System.out.println("Вес спортзавтрака " + productWeightKg + " кг.");
 
     }
 }
