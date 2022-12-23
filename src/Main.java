@@ -40,6 +40,17 @@ public class Main {
         short classesPaper = 480;
         System.out.println("На каждого ученика рассчитано " + classesPaper / (studentsEA+studentsAS+studentsLP) + " листов бумаги");
 
+        System.out.println("Задача 4");
+        byte oneMinuteProductivity = 16 / 2;
+        short twentyMinutesProductivity = (short) (oneMinuteProductivity * 20);
+        System.out.println("Производительность машины за 20 минут — " + twentyMinutesProductivity + " бутылок");
+        short oneDayProductivity = (short) (oneMinuteProductivity * 60 * 24);
+        System.out.println("Производительность машины в сутки — " + oneDayProductivity + " бутылок");
+        int threeDayProductivity = oneDayProductivity * 3;
+        System.out.println("Производительность машины за 3 дня — " + threeDayProductivity + " бутылок");
+        int oneMonthProductivity = oneDayProductivity * 30;
+        System.out.println("Производительность машины за месяц — " + oneMonthProductivity + " бутылок");
 
+        System.out.println("Задача 5");
     }
 }
