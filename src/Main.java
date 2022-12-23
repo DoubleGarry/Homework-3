@@ -52,5 +52,11 @@ public class Main {
         System.out.println("Производительность машины за месяц — " + oneMonthProductivity + " бутылок");
 
         System.out.println("Задача 5");
+        byte allClasses = 120 / (2+4);
+        byte whitePaint = (byte) (allClasses * 2);
+        byte brownPaint = (byte) (allClasses * 4);
+        System.out.println("В школе, где " + allClasses + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски");
+
+
     }
 }
