@@ -33,6 +33,13 @@ public class Main {
         System.out.println("Значение переменной kilo равно " + kilo + " - тип переменной byte");
 
 
+        System.out.println("Задача 3");
+        byte studentsLP = 23;
+        byte studentsAS = 27;
+        byte studentsEA = 30;
+        short classesPaper = 480;
+        System.out.println("На каждого ученика рассчитано " + classesPaper / (studentsEA+studentsAS+studentsLP) + " листов бумаги");
+
 
     }
 }
