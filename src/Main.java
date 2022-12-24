@@ -66,5 +66,11 @@ public class Main {
         float productWeightKg = (float) ((bananasWeight + milkWeight + iceCreamWeight + eggsWeight) / 1000);
         System.out.println("Вес спортзавтрака " + productWeightKg + " кг.");
 
+        System.out.println("Задача 7");
+        short lightWeightLoss =(short) (7*1000) / 250;
+        System.out.println("Достижение результата за " + lightWeightLoss + " дней");
+        short hardWeightLoss =(short) (7*1000) / 500;
+        System.out.println("Достижение результата за " + hardWeightLoss + " дней");
+
     }
 }
