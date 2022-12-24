@@ -63,7 +63,7 @@ public class Main {
         short iceCreamWeight = 2 *100;
         short eggsWeight = 4 * 70;
         System.out.println("Вес спортзавтрака " + (bananasWeight + milkWeight + iceCreamWeight + eggsWeight) + " грамм");
-        float productWeightKg = (float) ((bananasWeight + milkWeight + iceCreamWeight + eggsWeight) / 1000);
+        float productWeightKg =((bananasWeight + milkWeight + iceCreamWeight + eggsWeight) / 1000f);
         System.out.println("Вес спортзавтрака " + productWeightKg + " кг.");
 
         System.out.println("Задача 7");
@@ -71,6 +71,35 @@ public class Main {
         System.out.println("Достижение результата за " + lightWeightLoss + " дней");
         short hardWeightLoss =(short) (7*1000) / 500;
         System.out.println("Достижение результата за " + hardWeightLoss + " дней");
+
+        System.out.println("Задача 8");
+        int salaryM = 67760;
+        float indexingSalaryM = (float) (salaryM * 1.1);
+        System.out.println("Маша теперь получает " + indexingSalaryM + " рублей.");
+        int annualSalaryM = salaryM * 12;
+        int indexingAnnualSalaryM = (int) (indexingSalaryM * 12);
+        System.out.println("Годовой доход вырос на " + (indexingAnnualSalaryM - annualSalaryM) + " рублей");
+        int salaryD = 83690;
+        float indexingSalaryD = (float) (salaryD * 1.1);
+        System.out.println("Денис теперь получает " + indexingSalaryD + " рублей.");
+        int annualSalaryD = salaryD * 12;
+        int indexingAnnualSalaryD = (int) (indexingSalaryD * 12);
+        System.out.println("Годовой доход вырос на " + (indexingAnnualSalaryD - annualSalaryD) + " рублей");
+        int salaryK = 76230;
+        float indexingSalaryK = (float) (salaryK * 1.1);
+        System.out.println("Кристина теперь получает " + indexingSalaryK + " рублей.");
+        int annualSalaryK = salaryK * 12;
+        int indexingAnnualSalaryK = (int) (indexingSalaryK * 12);
+        System.out.println("Годовой доход вырос на " + (indexingAnnualSalaryK - annualSalaryK) + " рублей");
+
+
+
+
+
+
+
+
+
 
     }
 }
